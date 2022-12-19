@@ -118,3 +118,9 @@ https://tecnoblog.net/responde/o-que-e-um-processador/
 https://embarcados.com.br/fpga/
 
 https://pt.wikipedia.org/wiki/M%C3%A1quina_de_estados_finita
+
+https://github.com/CarlosCraveiro/RISCV_based_processor
+
+Aulas de Organização e Arquitetura de Computadores ministradas pelo Professor Simões
+
+Aulas de Laboratório de Sistemas Digitais ministradas pelo Professor Maximillian Luppe
