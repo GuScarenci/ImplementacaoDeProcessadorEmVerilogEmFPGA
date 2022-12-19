@@ -17,7 +17,6 @@ Verilog é essencialmente...
 A implementação é feita da seguinte maneira...
 
 ![KitFPGAde10Lite](https://user-images.githubusercontent.com/93041836/208439524-34f10994-472f-48f5-97b7-bb9bf559d4c3.png)
-"/>
 
 ### ULA
 ### Registradores
