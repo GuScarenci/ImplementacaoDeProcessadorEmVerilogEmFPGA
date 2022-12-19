@@ -12,6 +12,12 @@ Uma FPGA é essencialmente...
 
 Verilog é essencialmente...
 
+##Exemplo Contador implementado em verilog na FPGA
+
+
+https://user-images.githubusercontent.com/93041836/208499291-58de9a90-d827-4e0b-9ade-c7d1589ae9ec.mp4
+
+
 ## A implementação:
 
 A implementação é feita da seguinte maneira...
