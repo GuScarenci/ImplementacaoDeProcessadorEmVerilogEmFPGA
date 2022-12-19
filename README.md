@@ -46,7 +46,7 @@ output reg Zero
         case(ALUControl)
           3'b000: // Addition
            ALUResult = SrcA + SrcB ; 
-			 3'b001: // Subtraction
+	  3'b001: // Subtraction
            ALUResult = SrcA - SrcB ;
           3'b010: //  Logical and 
            ALUResult = SrcA & SrcB;
