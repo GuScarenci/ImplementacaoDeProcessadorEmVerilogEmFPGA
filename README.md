@@ -26,6 +26,7 @@ A implementação é feita da seguinte maneira...
 
 ### ULA
 
+Unidade lógica aritmética (ULA) é ...
 ```
 module DE10_LITE_ALU(
 
@@ -64,6 +65,8 @@ ALU0 ( .SrcA (SW[3:0]),
 endmodule
 ```
 ### Registradores
+
+Registradores são ....
 ```
 module DE10_LITE_RegBank(
 
