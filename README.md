@@ -28,6 +28,42 @@ A implementação é feita da seguinte maneira...
 
 Unidade lógica aritmética (ULA) é ...
 ```
+module ALU
+#(
+parameter WIDTH = 4)
+(
+input [WIDTH-1:0] SrcA,
+input [WIDTH-1:0] SrcB,
+input [2:0] ALUControl,
+output reg [WIDTH-1:0] ALUResult,
+output reg Zero
+);
+// your code goes here…
+
+
+    always @(*)
+    begin
+        case(ALUControl)
+          3'b000: // Addition
+           ALUResult = SrcA + SrcB ; 
+			 3'b001: // Subtraction
+           ALUResult = SrcA - SrcB ;
+          3'b010: //  Logical and 
+           ALUResult = SrcA & SrcB;
+          3'b011: //  Logical or
+           ALUResult = SrcA | SrcB;
+          3'b101: // Greater comparison SLT
+           ALUResult = (SrcA<SrcB)? 1 : 0 ;
+          default: ALUResult = 0; 
+        endcase
+		  Zero = (ALUResult == 0)? 1 : 0 ;
+    end
+
+
+endmodule
+```
+
+```
 module DE10_LITE_ALU(
 
 	//////////// CLOCK //////////
