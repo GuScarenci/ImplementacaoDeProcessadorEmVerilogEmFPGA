@@ -2,11 +2,11 @@
 
 ## O que é um processador e como eles funcionam?
 
-Um processador é essencialmente...
+O processador é a unidade central de processamento de um computador (CPU), que funciona como o cérebro do computador, pois interage e faz as conexões necessárias entre todos os programas instalados.
 
 ## O que é uma FPGA?
 
-Uma FPGA é essencialmente...
+FPGA ou field-programmable gate array (ou ainda matriz de portas programáveis) é um dispositivo lógico programável que suporta a implementação de circuitos digitais.
 
 ## O  que é verilog?
 
@@ -107,3 +107,7 @@ endmodule
 ### Máquina de estados finitos
 
 ## Referências:
+
+https://tecnoblog.net/responde/o-que-e-um-processador/
+
+https://embarcados.com.br/fpga/
