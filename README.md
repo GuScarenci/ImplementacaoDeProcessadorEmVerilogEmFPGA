@@ -24,7 +24,9 @@ A implementação é feita da seguinte maneira...
 
 ### ULA
 
-Unidade lógica aritmética (ULA) é ...
+Unidade lógica aritmética (ULA) é a responsável por fazer os cálculos do processador...
+
+Na nossa implementação, um botão mais os switches 0 e 1 definem a operação, os pinos de 2 a 5 definem a segunda parcela da soma, e os pinos de 6 a 9 definem a primeira parcela da soma. 
 
 ```
 module ALU
