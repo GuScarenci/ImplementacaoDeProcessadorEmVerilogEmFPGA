@@ -10,7 +10,7 @@ FPGA ou field-programmable gate array (ou ainda matriz de portas programáveis) 
 
 ## O  que é verilog?
 
-Verilog é essencialmente...
+Verilog é uma linguagem de descrição de hardware.
 
 ## Exemplo Contador implementado em verilog na FPGA
 
