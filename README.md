@@ -14,9 +14,7 @@ Verilog é uma linguagem de descrição de hardware.
 
 ## Exemplo Contador implementado em verilog na FPGA
 
-
 https://user-images.githubusercontent.com/93041836/208499291-58de9a90-d827-4e0b-9ade-c7d1589ae9ec.mp4
-
 
 ## A implementação:
 
@@ -27,6 +25,7 @@ A implementação é feita da seguinte maneira...
 ### ULA
 
 Unidade lógica aritmética (ULA) é ...
+
 ```
 module ALU
 #(
@@ -103,6 +102,38 @@ endmodule
 ### Registradores
 
 Registradores são ....
+```
+module regbank
+#(
+parameter WIDTH = 4,
+SIZE = 3)
+(
+input CLK,
+input WE3,
+input [SIZE-1:0] A1,
+input [SIZE-1:0] A2,
+input [SIZE-1:0] A3,
+input [WIDTH-1:0] WD3,
+output [WIDTH-1:0] RD1,
+output [WIDTH-1:0] RD2
+);
+
+ 
+reg [WIDTH -1:0] register [0:2**SIZE - 1];
+
+assign RD1 = register[A1];
+assign RD2 = register[A2];
+
+always @(posedge CLK) begin
+	if(WE3 == 1'b1 && A3 != {SIZE{1'b0}}) begin
+	 register[A3] = WD3;
+	 end
+	end
+
+endmodule
+
+```
+
 ```
 module DE10_LITE_RegBank(
 
